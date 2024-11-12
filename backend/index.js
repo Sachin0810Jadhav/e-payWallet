@@ -6,6 +6,8 @@ const userValidation = require("./middlewares/userValidation");
 const myRouter = require("./routes/index");
 require("dotenv").config();
 
+
+
 const app = express();
 const PORT = 3000;
 
