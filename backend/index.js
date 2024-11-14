@@ -1,10 +1,11 @@
+require("dotenv").config();
 const express = require("express");
 const userMiddleware = require("./middlewares/userSignupInputCheck");
 const { User } = require("./db/index");
 const cors = require("cors");
 const userValidation = require("./middlewares/userValidation");
 const myRouter = require("./routes/index");
-require("dotenv").config();
+
 
 
 
